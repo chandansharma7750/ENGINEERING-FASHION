@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "713840120530",
+    "firebase_url": "https://engineeringfashion-c47b5.firebaseio.com",
+    "project_id": "engineeringfashion-c47b5",
+    "storage_bucket": "engineeringfashion-c47b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713840120530:android:34a9c545d5c4fd47",
+        "android_client_info": {
+          "package_name": "com.example.engineeringfashion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713840120530-jk3o4nc5ku7ubpfd2gj79i9ebh51d929.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTwVFN4ehtG-IwAbGo8c3V7iZcqI6aClM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713840120530-jk3o4nc5ku7ubpfd2gj79i9ebh51d929.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

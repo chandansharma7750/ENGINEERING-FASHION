@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/product_detail_container"
+    android:elevation="3dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/productdetail_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#C7BCBC"
+        android:padding="16dp"
+        android:text="Product Details"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/productdetail_body"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="xvvxcvxcvxckvbbsj jsj jsdd sd jbs usd sdkdn shj sjf  s /n
+sdvvsdfsd  sdvf
+sf df df fssdsdfdfsdfsdfsd /n sdfdsfasdfsdfsdcsd ihibsdj sd sub sudd sd hbsu bs /n iashcbasbcjsjad dcsdycsjd usb suodb jsb jsb /n  ghcvysd csdihc /n
+/n
+/n sdcsdcsdcsdcds da fef dfdssd
+/n
+/n
+fdvdf"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/productdetail_title" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Product_Description">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_productDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:text="xvvxcvxcvxckvbbsj jsj jsdd sd jbs usd sdkdn shj sjf  s /n
+sdvvsdfsd  sdvf
+sf df df fssdsdfdfsdfsdfsd /n sdfdsfasdfsdfsdcsd ihibsdj sd sub sudd sd hbsu bs /n iashcbasbcjsjad dcsdycsjd usb suodb jsb jsb /n  ghcvysd csdihc /n
+/n
+/n sdcsdcsdcsdcds da fef dfdssd
+/n
+/n
+fdvdf" />
+
+</FrameLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#A89494"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".my_cart">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cart_item_recycleview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:elevation="8dp"
+        android:paddingStart="18dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:background="@color/colorAccent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/cart_continue_btn_totalamount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RS-499999/-"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="total amount"
+                android:textColor="@color/white"
+                android:textSize="14sp"/>
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/cart_continue_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#90ffffff"
+            android:textSize="20sp"
+            android:text="CONTINUE"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

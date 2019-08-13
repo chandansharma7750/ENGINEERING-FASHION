@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reward_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/rewardgradient"
+    android:elevation="3dp">
+
+    <ImageView
+        android:id="@+id/reward_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:tint="#ffffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_card_giftcard_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/reward_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Title"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/reward_icon"
+        app:layout_constraintStart_toEndOf="@+id/reward_icon"
+        app:layout_constraintTop_toTopOf="@+id/reward_icon" />
+
+    <TextView
+        android:id="@+id/reward_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+
+        android:layout_marginBottom="16dp"
+        android:text="sdvsdvsdbjbsd dsjhcsdhcbsd kjsdbckjsd cksd c sdck sdkcsf cmc sih wdsk ki si sfoo os os df df kx id i d i id id od id  ;ih djdjf hk s  ihhs khksb f"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toStartOf="@+id/reward_icon"
+        app:layout_constraintTop_toBottomOf="@+id/reward_title" />
+</android.support.constraint.ConstraintLayout>

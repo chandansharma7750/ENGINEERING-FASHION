@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/enginneringfashion"
+            android:icon="@drawable/ic_mood_black_24dp"
+            android:title="ENGINEERING FASHION" />
+        <item
+            android:id="@+id/mycart"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="My cart" />
+        <item
+            android:id="@+id/myorder"
+            android:icon="@drawable/ic_next_week_black_24dp"
+            android:title="My orders" />
+        <item
+            android:id="@+id/myreward"
+            android:icon="@drawable/ic_card_giftcard_black_24dp"
+            android:title="My reward" />
+        <item
+            android:id="@+id/myaccount"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="My account" />
+        <item
+            android:id="@+id/creater"
+            android:icon="@drawable/ic_pan_tool_black_24dp"
+            android:title="know about devloper!" />
+
+    </group>
+    <item
+        android:id="@+id/singout"
+        android:icon="@drawable/ic_keyboard_backspace_black_24dp"
+        android:title="Sign Out!" />
+
+
+</menu>
